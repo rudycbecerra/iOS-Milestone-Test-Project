@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  Hello World
+//  HelloWorld_
 //
 //  Created by Rudy Becerra on 10/31/22.
 //
@@ -8,9 +8,9 @@
 import UIKit
 
 class ViewController: UIViewController
-
 {
 
+    
     @IBOutlet weak var display: UILabel!
     
     let quote1 = "Hola Mundo!"
@@ -19,12 +19,12 @@ class ViewController: UIViewController
     let quote4 = "Ahoj světe!"
     let quote5 = "Ciao mondo!"
     
-    
     override func viewDidLoad()
     {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
+
 
     @IBAction func buttonController(_ sender: Any)
     {
@@ -55,6 +55,5 @@ class ViewController: UIViewController
             display.text = quote5;
         }
     }
-    
 }
 
