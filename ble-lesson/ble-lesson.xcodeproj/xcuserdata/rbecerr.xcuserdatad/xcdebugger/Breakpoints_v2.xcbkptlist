@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "6FB5D51C-1241-45C4-9BB2-47D0BEBDFBD3"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "22024D31-EC50-4CC0-B9F2-EEE55438A149"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ble-lesson/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "61F10D38-E58D-4986-8B31-E0D88CDD455A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ble-lesson/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "61F10D38-E58D-4986-8B31-E0D88CDD455A - 504a22c6fd5791e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ble_lesson.ViewController.dataLbl.getter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "ble-lesson"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rudybecerra/Desktop/School/Fall2022/iOS-Milestone-Test-Project/ble-lesson/ble-lesson/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "61F10D38-E58D-4986-8B31-E0D88CDD455A - 578f46334d64902a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ble_lesson.ViewController.dataLbl.setter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "ble-lesson"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rudybecerra/Desktop/School/Fall2022/iOS-Milestone-Test-Project/ble-lesson/ble-lesson/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "61F10D38-E58D-4986-8B31-E0D88CDD455A - 8256534c0881df5b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ble_lesson.ViewController.dataLbl.modify : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "ble-lesson"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rudybecerra/Desktop/School/Fall2022/iOS-Milestone-Test-Project/ble-lesson/ble-lesson/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "61F10D38-E58D-4986-8B31-E0D88CDD455A - dd1de34ed5f3cce3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ble_lesson.ViewController.dataLbl.modify : Swift.Optional&lt;__C.UILabel&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "ble-lesson"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rudybecerra/Desktop/School/Fall2022/iOS-Milestone-Test-Project/ble-lesson/ble-lesson/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "61F10D38-E58D-4986-8B31-E0D88CDD455A - eb3e95c60aebfe79"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ble_lesson.ViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; ble_lesson.ViewController"
+                  moduleName = "ble-lesson"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rudybecerra/Desktop/School/Fall2022/iOS-Milestone-Test-Project/ble-lesson/ble-lesson/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "676">
+               </Location>
+               <Location
+                  uuid = "61F10D38-E58D-4986-8B31-E0D88CDD455A - fef8239e64e8420a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ble_lesson.ViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;ble_lesson.ViewController&gt;"
+                  moduleName = "ble-lesson"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rudybecerra/Desktop/School/Fall2022/iOS-Milestone-Test-Project/ble-lesson/ble-lesson/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "652">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "800192C1-043C-4C6E-BC87-7665AB80D380"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ble-lesson/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
