@@ -39,24 +39,29 @@ class ViewController: UIViewController, CBCentralManagerDelegate, CBPeripheralDe
     /* INITIALIZE YOUR OWN VARIABLES HERE */
     @IBOutlet weak var dataLbl: UILabel!
     
+    var BLEisConnected = false
+    
 
 
     /* INITIALIZE YOUR OWN FUNCTIONS HERE */
     @IBAction func btnAction(_ button: UIButton)
     {
-        let randNum = Int.random(in: 1...3)
-        
-        if randNum == 1
+        if BLEisConnected
         {
-            button.setTitleColor(UIColor.red, for: .normal)
-        }
-        if randNum == 2
-        {
-            button.setTitleColor(UIColor.green, for: .normal)
-        }
-        if randNum == 3
-        {
-            button.setTitleColor(UIColor.orange, for: .normal)
+            let randNum = Int.random(in: 1...3)
+            
+            if randNum == 1
+            {
+                button.setTitleColor(UIColor.red, for: .normal)
+            }
+            if randNum == 2
+            {
+                button.setTitleColor(UIColor.green, for: .normal)
+            }
+            if randNum == 3
+            {
+                button.setTitleColor(UIColor.orange, for: .normal)
+            }
         }
     }
     
@@ -190,6 +195,8 @@ class ViewController: UIViewController, CBCentralManagerDelegate, CBPeripheralDe
     // Called when the central manager disconnects from the peripheral
     func centralManager(_ central: CBCentralManager, didDisconnectPeripheral peripheral: CBPeripheral, error: Error?) {
         print("Disconnected")
+        
+        BLEisConnected = false
     }
     
     // Called when the correct peripheral's services are discovered
@@ -212,6 +219,8 @@ class ViewController: UIViewController, CBCentralManagerDelegate, CBPeripheralDe
             
             // If service's UUID matches with our specified one...
             if service.uuid == BLE_Service_UUID {
+                
+                BLEisConnected = true
                 
                 // Search for the characteristics of the service
                 peripheral.discoverCharacteristics(nil, for: service)
